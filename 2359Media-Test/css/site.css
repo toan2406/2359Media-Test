@@ -1,0 +1,489 @@
+body {
+	margin: 0px;
+}
+
+#site-wrapper {
+	min-width: 320px;
+}
+
+
+/**** HEADER CSS ****/
+
+
+#header-wrapper {
+	width: 100%;
+	height: 115px;
+	background: #1A1E21;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+#header {
+	max-width: 940px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#logo {
+	height: 90px;
+	margin-right: 53px;
+	float: left;
+}
+
+#menu {
+	height: 90px;
+	color: #CCCCCC;
+	float: left;
+}
+#header ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#header li {
+	height: 50px;
+	margin: 0px 30px 0px 0px;
+	padding-top: 35px;
+	float: left;
+}
+#header li a {
+	display: block;
+	height: 50px;
+	border-bottom: solid 5px #1A1E21;
+	cursor: pointer;
+}
+
+.purple a:hover {
+	border-bottom: solid 5px #805e9c !important;
+}
+.green a:hover {
+	border-bottom: solid 5px #88a73c !important;
+}
+.red a:hover {
+	border-bottom: solid 5px #c72d29 !important;
+}
+.cyan a:hover {
+	border-bottom: solid 5px #55b6ce !important;
+}
+.grey a:hover {
+	border-bottom: solid 5px #616161 !important;
+}
+
+#menu-select {
+	display: none;
+}
+
+
+/**** MAIN CSS ****/
+
+
+#singtel-wrapper {
+	padding-top: 115px;
+	background-color: #333333;
+}
+#singtel-wrapper #singtel{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 22px 0px 12px 0px;
+	color: #606060;
+}
+#singtel-wrapper #singtel img{
+	padding: 0px 1px 0px 74px;
+	display: inline-block;
+	vertical-align: top;
+}
+#singtel-wrapper #singtel span{
+	height: 24px;
+	padding: 10px 0px 0px 19px;
+	color: #666666;
+	display: inline-block;
+}
+
+
+.banner {
+	min-height: 410px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+.banner .banner-bg {
+	height: 410px;
+	width: 100%;
+	background-image: url('../images/banner-bg.jpg');
+	background-position: 0% -268.1px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.banner .banner-face1 {
+	height: 410px;
+	width: 100%;
+	background-image: url('../images/face1.png');
+	background-position: 0% -90.5px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.banner .banner-face2 {
+	height: 410px;
+	width: 100%;
+	background-image: url('../images/face2.png');
+	background-position: 135% -166px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.banner .banner-face3 {
+	height: 410px;
+	width: 100%;
+	background-image: url('../images/face3.png');
+	background-position: 0% -170px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.banner .banner-face4 {
+	height: 410px;
+	width: 100%;
+	background-image: url('../images/face4.png');
+	background-position: 135% -166px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.banner .banner-text {
+	height: 410px;
+	width: 60%;
+	margin: 0 20%;
+	display: table;
+	vertical-align: middle;
+	font-size: 45px;
+	color: #f1f1f1;
+	text-shadow: 3px 3px 5px #333;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	
+	
+	font-weight: bold;
+}
+
+
+#content-wrapper {
+	position: relative;
+	background-color: #e8e8e8;
+	z-index: 4;
+}
+
+.content-bg-top {
+	height: 6px;
+	width: 100%;
+	background: url('../images/top.png') repeat-x right top;
+	position: absolute;
+	top: -6px;
+}
+.content-bg-grey-top {
+	height: 6px;
+	width: 100%;
+	background: url('../images/grey-top.png') repeat-x right top;
+	position: absolute;
+	top: -6px;
+}
+
+.content-bg-bot {
+	height: 6px;
+	width: 100%;
+	background: url('../images/bot.png') repeat-x right top;
+	position: absolute;
+	bottom: -6px;
+}
+.content-bg-grey-bot {
+	height: 6px;
+	width: 100%;
+	background: url('../images/grey-bot.png') repeat-x right top;
+	position: absolute;
+	bottom: -6px;
+}
+
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content-heading {
+	height: 85px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+.content-heading span {
+	margin-top: 53px;
+	padding: 0 8px;
+	color: #7f609b;
+	text-align: center;
+	background-color: #e8e8e8;
+	border: none !important;
+	display: inline-block;
+	
+	font-weight: bold;
+	font-size: 45px;
+}
+.heading-grey {
+	border-bottom: 1px solid #666 !important;
+}
+.heading-grey span {
+	background-color: #1A1E21 !important;
+	color: #89a542 !important;
+}
+
+.content-text{
+	margin-top: 81px;
+	text-align: center;
+}
+.content-text p {
+	margin-top: 34px;
+	margin-bottom: 0px;
+	font: normal 18px 'Open Sans', sans-serif;
+	color: #333333;
+	line-height: 24px!important;
+}
+.content-text a {
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.content-text a:hover {
+	background-color: #939393;
+}
+.text-grey p {
+	color: #999999 !important;
+}
+
+.slider {
+	display: table;
+	margin-top: 81px;
+	border-bottom: solid thin #cccccc;
+}
+.slider .one-column {
+	display: table-cell;
+	width: 50%;
+	padding: 0px 28px 50px 28px;
+	font-size: 18px;
+	color: #3d3d3d;
+	text-align: center;
+	
+	color: #666666;
+}
+.one-column:hover {
+	background-color: #FFFFFF;
+}
+.one-column-grey:hover {
+	background-color: #323639 !important;
+}
+.slider img {
+	margin: 0 auto;
+}
+.column-title {
+	height: 78px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	color: #3d3d3d;
+	
+	
+	font-weight: bold;
+}
+.title-grey {
+	color: #979B9C !important;
+}
+
+.work-with-us {
+	margin: 30px auto 40px;
+	background-color: #323232;
+	color: white;
+	height: 52px;
+	text-align: center;
+	font: bold 20px 'Open Sans', sans-serif;
+	line-height: 52px;
+	display: table;
+	text-align: center;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.work-with-us:hover {
+	background-color: #000000;
+}
+.image-container {
+	margin-top: 63px;
+}
+.image-container img{
+	margin: auto;
+	padding-bottom: 30px;
+	border-bottom: solid thin #CCCCCC;
+	vertical-align: middle;
+}
+
+.video-container {
+	margin-top: 63px;
+}
+.video-container img{
+	margin: auto;
+	padding-bottom: 30px;
+	border-bottom: solid thin #CCCCCC;
+	vertical-align: middle;
+}
+
+#google-maps {
+	width: 100%;	
+}
+
+
+/**** FOOTER CSS ****/
+
+
+#footer {
+	width: 100%;
+	background-color: #181c1e;
+}
+
+#contact {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+#info {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #3e3e3e;
+}
+.contact-column{
+	display: table-cell;
+	vertical-align: top;
+	width: 25%;
+	font-size: 11px;
+	line-height: 14px;
+}
+.contact-column ul{
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+}
+.contact-column li{
+	margin-bottom: 12px;
+	color: #D3D7D8;
+}
+.contact-column li p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: 150px;
+	font-weight: bold;
+}
+.contact-column .contact-heading {
+	color: #E8E8E8;
+	font-size: 12px;
+	line-height: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contact-column .bird{
+	float: left;
+	padding-right: 4px;
+	margin-top: 2px;
+}
+.contact-column .intended{
+	margin-left: 24px;
+}
+.blue {
+	color: #58afcd;
+	cursor: pointer;
+}
+.time {
+	color: #4e4e4e;
+	margin: 2px 0;
+}
+
+#partner {
+	width: 100%;
+	margin-top: 1px;
+	border-top: 1px solid #3e3e3e;
+}
+#partner ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#partner li{
+	background-color: #242424;
+	height: 116px;
+	line-height: 110px;
+	width: 160px;
+	text-align: center;
+}
+#partner img{
+	margin: auto;
+	padding-top: 37px;
+}
+
+
+/**** SHARE LIST CSS ****/
+
+
+#share-list {
+	position: fixed;
+	right: 15px;
+	top: 236px;
+	z-index: 1000;
+}
+#share-list ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#share-list ul li{
+	width: 39px;
+	height: 39px;
+	cursor: pointer;
+	margin-bottom: 12px;
+}
+#share-fb {
+	background: url('../images/FB-Icon.png') no-repeat;
+}
+#share-gp {
+	background: url('../images/gplus-icon.png') no-repeat;
+}
+#share-li {
+	background: url('../images/LinkedIn-Icon.png') no-repeat;
+}
+#share-tw {
+	background: url('../images/Twiter-Icon.png') no-repeat;
+}
+
+#share-fb:hover {
+	background: url('../images/FB-Icon-hover.png') no-repeat;
+}
+#share-gp:hover {
+	background: url('../images/gplus-icon-hover.png') no-repeat;
+}
+#share-li:hover {
+	background: url('../images/LinkedIn-Icon-hover.png') no-repeat;
+}
+#share-tw:hover {
+	background: url('../images/Twiter-Icon-hover.png') no-repeat;
+}
+

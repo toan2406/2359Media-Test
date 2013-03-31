@@ -1,0 +1,147 @@
+
+
+#header {
+	text-align: center;
+	padding-top: 20px !important;
+}
+
+#logo {
+	width: 175px;
+	height: 55px !important;
+	margin: 0 auto !important;
+	float: none !important;
+	display: block;
+}
+
+#menu {
+	display: none !important;
+}
+
+#menu-select {
+	width: 220px;
+	display: inline !important;
+	margin: 8px auto 20px auto;
+}
+
+#share-list {
+	display: none !important;
+}
+
+
+
+
+#singtel-wrapper #singtel{
+	padding: 5px 0px 5px 0px !important;
+	text-align: center;
+}
+#singtel-wrapper #singtel img{
+	width: 70px;
+	margin: auto;
+	padding: 0px !important;
+	display: block !important;
+}
+#singtel-wrapper #singtel span{
+	height: auto !important;
+	padding: 5px 0px 0px 0px !important;
+	font-size: 12px !important;
+}
+
+
+
+
+.banner {
+	min-height: 200px !important;
+}
+.banner .banner-face1 {
+	background-image: none;
+}
+.banner .banner-text {
+	height: 200px;
+	width: 100% !important;
+	margin: 0px !important;
+	font-size: 20px !important;
+}
+
+
+
+.content {
+	width: 90% !important;
+}
+.content-heading {
+	height: 40px !important;
+}
+.content-heading span {
+	margin-top: 25px !important;
+	font-size: 20px !important;
+}
+.content-text{
+	margin-top: 30px !important;
+}
+.content-text p {
+	margin-top: 30px !important;
+	font-size: 16px !important;
+}
+
+
+
+
+.slider {
+	margin-top: 61px !important;
+}
+.slider .one-column {
+	width: 100% !important;
+	border-right: none !important;
+}
+.slider img {
+	width: 208px !important;
+}
+.column-title {
+	height: 50px !important;
+	margin-bottom: 20px !important;
+}
+
+.work-with-us {
+	font-size: 14px;
+	width: 100%;
+	padding: 0px !important;
+	font-weight: normal;
+}
+
+
+
+
+.image-container {
+	margin-top: 33px;
+}
+.image-container img{
+	width: 100%;
+}
+
+.video-container {
+	margin-top: 33px;
+}
+.video-container img{
+	width: 100%;
+}
+
+
+
+#contact {
+	padding: 20px 20px !important;
+}
+
+.contact-column{
+	display: block;
+	width: 100%;
+}
+
+.contact-column li p {
+	width: 100% !important;
+}
+
+.contact-column .contact-heading {
+	font-size: 20px;
+}
+#partner {
+	width: auto;
+}
